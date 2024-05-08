@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+.instagramPageAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 953px;
+    max-height: 953px ;
+    min-height: 50px ;
+}
+
+.PageLogin {
+    width: 350px;
+    height: 410px;
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.inputLogIn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.inputLogIn input {
+    width: 268px;
+    height: 40px;
+    background-color: #fafafa;
+    margin: 0px 40px 6px 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.btnSubmit {
+    margin: 8px 40px 8px 40px;
+    cursor: pointer;
+}
+
+.btnEnter button {
+    width: 268px;
+    height: 32px;
+    border: 1px solid #0095f6;
+    border-radius: 8px;
+    background-color: #0095f6;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 40px 22px 40px;
+
+}
+
+.or span {
+    font-size: 13px;
+    color: #737373;
+    margin: 0px 18px;
+}
+
+.facebookAcess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 40px 8px 40px;
+}
+
+.facebookAcess span,
+a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #315185;
+    text-decoration: none;
+
+}
+
+.facebookAcess svg {
+    margin: 0px 8px 0px 0px;
+}
+
+.ForgetPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+
+}
+
+.ForgetPassword a {
+
+    font-size: 12px;
+    font-weight: lighter;
+    color: #00376B;
+}
+
+.MakeAccount {
+    width: 350px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+
+.MakeAccount span {
+    font-size: 14px;
+    color: black;
+}
+
+.MakeAccount a {
+    font-size: 14px;
+    color: #0095f6;
+}
+
+.AppDownload {
+    width: 350px;
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AppDownload span {
+    font-size: 14px;
+    color: black;
+}
+
+.btndownload {
+    display: flex;
+    flex-direction: row;
+}
+
+.btndownload img {
+    height: 40px;
+
+}
+
+.downloadApp {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TryAgain {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
