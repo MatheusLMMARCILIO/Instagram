@@ -2,13 +2,24 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
 }
 
+.HomePage {
+    float: left;
+    display: inline-flex;
+    background-color: white;
+
+}
+
+
 .Menu {
+    /* flex: 1; */
     width: 320px;
     height: 953px;
-
-    position: fixed;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: fixed; */
     border-right: 1px solid #0000001a;
 }
 
@@ -24,7 +35,8 @@
 }
 
 
-.links ul,li {
+.links ul,
+li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +61,7 @@
     background-color: #0000000d;
 }
 
-.links span{
+.links span {
     margin: 0px 16px 0px 10px;
 }
 
@@ -58,4 +70,87 @@
     color: black;
 }
 
-.menuLogOut
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.end {
+    margin-left: 18px;
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pageMiddleMenu {
+    flex: 1;
+    width: 800px;
+    background-color: aqua;
+}
+
+.post {
+    width: 400px;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+.perfilPost {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.story {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
+
+.story button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom left,
+            purple 30%,
+            yellow);
+    border: none;
+    cursor: pointer;
+}
+
+.story img {
+    margin-top: 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.btnImg button {
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to bottom left,
+            purple,
+            yellow);
+    border: none;
+    border-radius: 50px;
+}
+
+.btnImg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 2px;
+}
+
+.nameUser span {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
