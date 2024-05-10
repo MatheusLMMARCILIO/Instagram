@@ -15,7 +15,7 @@ btnEnter.addEventListener('click', () => {
     const password = '123'
 
     if (nameUser && passwordUser == password && user) {
-       alert('Está certa!')
+       window.location.href = '/pageHome/index.html'
     } else {
       wrongPassword.innerHTML = "Senha incorreta!"
     }

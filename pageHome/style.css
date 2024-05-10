@@ -14,12 +14,8 @@
 
 
 .Menu {
-    /* flex: 1; */
     width: 320px;
     height: 953px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* position: fixed; */
     border-right: 1px solid #0000001a;
 }
 
@@ -87,13 +83,18 @@ li {
 .pageMiddleMenu {
     flex: 1;
     width: 800px;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .post {
     width: 400px;
-    height: 150px;
-    background-color: aliceblue;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #0000001a;
 }
 
 .perfilPost {
@@ -130,6 +131,7 @@ li {
     width: 60px;
     height: 60px;
     border-radius: 50px;
+    border: 2px solid white;
 }
 
 .btnImg button {
@@ -146,11 +148,77 @@ li {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    margin-top: 2px;
+    margin-top: 3px;
+    border: 2px solid white;
 }
 
 .nameUser span {
     font-size: 15px;
     font-weight: bolder;
     margin-left: 10px;
+}
+
+.postImage img {
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 400px;
+    min-height: 50px;
+}
+
+.btnClick {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.Comments {
+    margin: 0px 10px 0px 10px;
+}
+
+.uComent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uComent a {
+    font-size: 14px;
+    color: #737373;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.perfilUser {
+    width: 390px;
+    height: 140px;
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imgUser {
+    margin-left: 10px ;
+}
+
+.imgUser img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.userNameUsername {
+    margin-left: 15px;
+}
+
+.userNameUsername a {
+font-size: 14px;
+font-weight: bold;
+color: black;
+text-decoration: none;
+}
+
+.userNameUsername p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #737373;
 }
