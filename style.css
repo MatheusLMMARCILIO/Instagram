@@ -14,9 +14,6 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 953px;
-    max-height: 953px ;
-    min-height: 50px ;
 }
 
 .PageLogin {
@@ -184,3 +181,4 @@ a {
     align-items: center;
     justify-content: center;
 }
+

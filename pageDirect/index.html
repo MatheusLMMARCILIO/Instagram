@@ -1,42 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>instagram | Home</title>
+    <title>instagram | Direct</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/image/InstagramIcon.webp" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/image/InstagramIcon.webp" type="image/x-icon">
 </head>
 
 <body>
 
-
-
-
-
-    <section class="HomePage">
+    <section class="direct">
 
         <section class="Menu">
             <div class="start">
-                <div class="logo"><img src="/image/nameLogoInstagram.png" alt=""></div>
+                <div class="logo"><img src="/image/instagramLogoBW.png" alt=""></div>
 
                 <div class="links">
                     <ul>
                         <li>
-                            <a href="index.html" style="cursor: pointer;" >
-                                <span><i class="fa-solid fa-house fa-xl" style="color: #000000;"></i></span>
+                            <a href="/pageHome/index.html" style="cursor: pointer;">
+                                <span><i class="fa-regular fa-house fa-lg" style="color: #000000;"></i></span>
                                 <p style="font-weight: bold;">Página inicial</p>
                             </a>
                         </li>
                         <li>
-                           <button style="cursor: pointer;" class="btnOpen" >
+                            <button style="cursor: pointer;" class="btnOpen">
                                 <span><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i></span>
                                 <p>Pesquisa</p>
-                           </button>
+                            </button>
                         </li>
                         <li>
                             <a href="index.html">
@@ -56,8 +52,8 @@
                             </a>
                         </li>
                         <li>
-                            <a style="cursor: pointer;" href="/pageDirect/index.html">
-                                <span><i class="fa-regular fa-message fa-xl" style="color: #000000;"></i></span>
+                            <a style="cursor: pointer;" href="index.html">
+                                <span><i class="fa-solid fa-message fa-xl" style="color: #000000;"></i></span>
                                 <p>Mensagens</p>
                             </a>
                         </li>
@@ -94,72 +90,36 @@
 
         </section>
 
-        <section class="pageMiddleMenu">
+        <section class="directArea">
+            <div class="urFollowers">
 
-            <div class="story">
-                <button><img src="/image/user.jpg" alt="foto"></button>
-            </div>
-
-            <div class="PageCenterHome">
-
-                <div class="post">
-
-                    <div class="perfilPost">
-
-                        <div class="btnImg">
-                            <button><img src="/image/user.jpg" alt=""></button>
-                        </div>
-
-                        <div class="nameUser">
-                            <span>FirstUser</span>
-                        </div>
-
-                    </div>
-
-                    <div class="postImage">
-                        <img src="/image/PicInstagram.jpg" alt="Post">
-                    </div>
-
-                    <div class="btnClick">
-                        <div class="heartRed">
-                            <i id="likeHeart" class="fa-regular fa-heart fa-lg" style="color: #000000;"></i>
-                        </div>
-                        <div class="Comments">
-                            <i id="Comments" class="fa-regular fa-comment fa-lg" style="color: #000000;"></i>
-                        </div>
-
-                        <div class="enviarMensage">
-                            <i id="MensageEnter" class="fa-regular fa-message fa-lg" style="color: #000000;"></i>
-                        </div>
-
-                    </div>
-
-                    <div class="uComent">
-                        <a href="#"></a>
-                    </div>
+                <div class="perfilName">
+                    <span>SeuNome</span>
                 </div>
 
-
-
-
-            </div>
-
-        </section>
-
-        <section class="lastPage">
-
-            <div class="perfilUser">
-
-                <div class="imgUser"><img src="/image/user.jpg" alt=""></div>
-
-                <div class="userNameUsername">
-                    <a href="#">FirstUser</a>
-                    <p>@User_One</p>
+                <div class="yourPerfil">
+                    <img src="/image/user.jpg" alt="">
+                    <span>Your note</span>
                 </div>
 
-                <div class="follow">
-                    <span>Seguir</span>
+                <div class="messages">
+                    <span style=" margin-left: 15px; color: black; font-weight: bold;">Mensagens</span>
+                    <span style=" margin-right: 15px; font-size: 14px; color: #a8a8a8; "> request</span>
                 </div>
+
+                <div class="user1Area">
+
+                    <div class="pict"><img style="width: 50px;" src="/image/user.jpg" alt=""></div>
+
+                    <div class="nameUser1">
+                        <span>UserOne</span>
+                        <p>Mensagem aqui!</p>
+                    </div>
+
+
+
+                </div>
+
 
 
             </div>
@@ -167,36 +127,8 @@
 
 
         </section>
-        <script src="main.js"></script>
+
     </section>
-
-
-
-        <section class="SeachDialog">
-    
-            <div class="searchSpan">
-                <span>Pesquisar</span>
-    
-                <i id="Close" class="fa-solid fa-x fa-xs" style="color: #000000;"></i>
-    
-            </div>
-    
-            <div class="group">
-                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-                    <g>
-                        <path
-                            d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-                        </path>
-                    </g>
-                </svg>
-                <input placeholder="Search" type="search" class="input">
-            </div>
-    
-    
-        </section>
-        
-
-    
 
 
 </body>

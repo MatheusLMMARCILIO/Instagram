@@ -7,16 +7,21 @@
 
 .HomePage {
     float: left;
-    display: inline-flex;
+    display: flex;
     background-color: white;
 
 }
 
 
 .Menu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 320px;
-    height: 953px;
+    height: 100vh;
     border-right: 1px solid #0000001a;
+    position: fixed;
+
 }
 
 .logo {
@@ -37,13 +42,15 @@ li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .links li {
     margin: 8px 12px 8px 12px;
 }
 
-.links a {
+.links a,
+button {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -51,11 +58,17 @@ li {
     height: 50px;
     text-decoration: none;
     border-radius: 15px;
+    border: none;
+    background-color: white;
+    cursor: auto;
 }
 
-.links a:hover {
+.links button:hover,
+a:hover {
     background-color: #0000000d;
 }
+
+
 
 .links span {
     margin: 0px 16px 0px 10px;
@@ -78,15 +91,17 @@ li {
     height: 30%;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
 .pageMiddleMenu {
-    flex: 1;
+    display: flex;
     width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 320px;
 }
 
 .post {
@@ -123,7 +138,9 @@ li {
             purple 30%,
             yellow);
     border: none;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3px;
 }
 
 .story img {
@@ -132,6 +149,10 @@ li {
     height: 60px;
     border-radius: 50px;
     border: 2px solid white;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnImg button {
@@ -142,14 +163,15 @@ li {
             yellow);
     border: none;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnImg img {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    margin-top: 3px;
-    border: 2px solid white;
 }
 
 .nameUser span {
@@ -174,6 +196,10 @@ li {
     margin: 0px 10px 0px 10px;
 }
 
+.heartRed {
+    cursor: pointer;
+}
+
 .uComent {
     width: 100%;
     display: flex;
@@ -189,7 +215,7 @@ li {
 }
 
 .perfilUser {
-    width: 390px;
+    width: 310px;
     height: 140px;
     margin-top: 41px;
     display: flex;
@@ -198,7 +224,7 @@ li {
 }
 
 .imgUser {
-    margin-left: 10px ;
+    margin-left: 10px;
 }
 
 .imgUser img {
@@ -211,14 +237,90 @@ li {
 }
 
 .userNameUsername a {
-font-size: 14px;
-font-weight: bold;
-color: black;
-text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 .userNameUsername p {
     margin-top: 5px;
     font-size: 14px;
     color: #737373;
+}
+
+.follow {
+    margin-left: 100px;
+}
+
+.follow span {
+    font-size: 12px;
+    color: #0095f6;
+    cursor: pointer;
+}
+
+
+.SeachDialog {
+    padding-top: 15px;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(0, 149, 255);
+    display: none;
+}
+
+.SeachDialog.abrir {
+    display: flex;
+}
+
+.searchSpan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 15px 30px;
+}
+
+.SeachDialog span {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.group {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    border-bottom: 1px solid #0000001a;
+}
+
+.input {
+    width: 90%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 15px;
+    margin-left: 47px;
 }
