@@ -186,3 +186,21 @@ a:hover {
     color: #A8A8A8;
     font-weight: lighter;
 }
+
+.user1Area a{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.directArea{
+    display: flex;
+    position: fixed;
+}
+
+.mensageArea {
+    background-color: aqua;
+    width: 100%;
+}
