@@ -150,6 +150,9 @@ ul {
     margin-left: 405px;
     width: -405px 100%;
     height: 100vh;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .perfilMensage {
@@ -185,7 +188,7 @@ ul {
 }
 
 .lookPerfil {
-    background-color: aqua;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +213,7 @@ ul {
     color: #737373;
 }
 
-.lookPerfil button{
+.lookPerfil button {
     width: 100px;
     height: 32px;
     background-color: #EFEFEF;
@@ -219,8 +222,42 @@ ul {
     margin-top: 34px;
 }
 
-.lookPerfil a{
+.lookPerfil a {
     font-size: 14px;
     color: black;
     text-decoration: none;
+}
+
+.inputMensage {
+    width: 100%;
+    height: 30px;
+border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    border-radius: 50px;
+
+}
+
+.inputMensage input {
+    width: 95%;
+    height: 25px;
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    min-width: 10%;
+}
+
+.inputMensage input:focus {
+    border: none;
+    outline: none;
+}
+
+.inputMensage i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
