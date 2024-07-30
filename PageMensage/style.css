@@ -39,7 +39,7 @@
     flex-direction: column;
 }
 
-.links li  {
+.links li {
     width: 85%;
     height: 50px;
     display: flex;
@@ -93,98 +93,8 @@
     margin-left: 20px;
 }
 
-/******************************************************/
+/**********************************************************************************/
 
-.pageHomeMiddle {
-    flex: 2;
-}
-
-.story {
-    width: 100%;
-    height: 80px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.myStory {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-image: linear-gradient(to top right,
-            yellow 10%,
-            purple 80%);
-    border-radius: 50px;
-}
-
-/**********************************************/
-
-.post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-}
-
-.myStory img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    border: 2px solid white;
-}
-
-.postName {
-    width: 500px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.postUser {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-image: linear-gradient(to top right,
-            yellow 10%,
-            purple 80%);
-    border-radius: 50px;
-}
-
-.postUser img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    border: 2px solid white;
-}
-
-.postUserName {
-    padding-left: 10px;
-}
-
-.postUserName a {
-    font-size: 15px;
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.picturePostimg img {
-    width: 500px;
-}
-
-.potsIcons i {
-    cursor: pointer;
-}
-
-/***********************************************************************************/
 
 .search {
     top: 0;
@@ -236,3 +146,12 @@
 .closeModal {
     cursor: pointer;
 }
+
+/*****************************************************/
+
+.inbox {
+    width: 400px;
+    height: 100vh;
+    border-right: 1px solid #bdbdbd;
+}
+

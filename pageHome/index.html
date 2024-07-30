@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/image/InstagramIcon.webp" type="image/x-icon">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <div class="menu">
 
             <div class="logo">
-                <img src="/image/nameLogoInstagram.png" alt="">
+                <a href="index.html"><img src="/image/nameLogoInstagram.png" alt=""></a>
             </div>
 
             <div class="links">
@@ -32,13 +33,13 @@
                             </div>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <div class="Serach">
-                                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
-                                <span>Pesquisa</span>
-                            </div>
-                        </a>
+                    <li class="Serach">
+
+
+                        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                        <span>Pesquisa</span>
+
+
                     </li>
                     <li>
                         <a href="#">
@@ -49,7 +50,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/PageMensage/index.html">
                             <div class="envelope">
                                 <i class="fa-regular fa-envelope fa-xl" style="color: #000000;"></i>
                                 <span>Mensagens</span>
@@ -88,13 +89,72 @@
             </div>
 
             <div class="logoff">
-                <a href="./index.html">Sair</a>
+                <a href="/index.html">Sair</a>
             </div>
 
         </div>
 
+        <section class="pageHomeMiddle">
+
+            <div class="story">
+
+                <div class="myStory">
+                    <img src="/image/PeriflStory.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="post">
+                <div class="postName">
+
+                    <div class="postUser">
+                        <img src="/image/PeriflStory.png" alt="">
+                    </div>
+
+                    <div class="postUserName">
+                        <a href="#">Matheus</a>
+                    </div>
+
+                </div>
+
+                <div class="PostPicture">
+
+                    <div class="picturePostimg">
+                        <img src="/image/myPicture.jpg" alt="">
+                    </div>
+
+                    <div class="potsIcons">
+                        <i id="btnLike" class="fa-solid fa-heart fa-lg" style="color: #e0e0e0;"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </section>
 
+    <!-- ------------------------------------------- -->
+    
+    <section class="search">
+
+        <div class="getout">
+            <span class="closeModal">X</span>
+        </div>
+
+        <div class="searchAll">
+            <div class="inputPart">
+
+                <input type="text" placeholder="Pesquisar">
+
+            </div>
+        </div>
+
+    </section>
+
+
 </body>
+<script src="script.js"></script>
 
 </html>
