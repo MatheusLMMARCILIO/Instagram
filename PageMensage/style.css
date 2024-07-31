@@ -155,3 +155,15 @@
     border-right: 1px solid #bdbdbd;
 }
 
+.inboxNama {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.inboxNama span {
+    font-size: 30px;
+}
