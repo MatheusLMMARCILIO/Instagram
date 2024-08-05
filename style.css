@@ -19,6 +19,8 @@ body {
 }
 
 .PageLogin {
+    max-width: 350px;
+    min-width: 50px;
     width: 350px;
     height: 410px;
     background-color: white;
@@ -41,6 +43,8 @@ body {
 }
 
 .logo img {
+    max-width: 175px;
+    min-height: 50px;
     width: 175px;
 }
 
@@ -122,6 +126,8 @@ a {
 }
 
 .MakeAccount {
+    max-width: 350px;
+    min-width: 50px;
     width: 350px;
     height: 63px;
     display: flex;
@@ -179,93 +185,4 @@ a {
     justify-content: center;
 }
 
-/* Media Queries para responsividade */
-@media (max-width: 768px) {
-    .PageLogin {
-        width: 48.5%;
-        height: auto;
-        padding: 20px;
-    }
 
-    .logo img {
-        width: 150px;
-    }
-
-    .inputLogIn input {
-        width: calc(100% - 80px);
-        margin: 0 20px 6px;
-    }
-
-    .btnEnter button {
-        width: 100%;
-        height: 36px;
-        font-size: 14px;
-    }
-
-    .or {
-        margin: 14px 20px;
-    }
-
-    .facebookAcess {
-        margin: 8px 20px;
-    }
-
-    .facebookAcess svg {
-        width: 20px;
-        height: 20px;
-    }
-
-    .AppDownload {
-        width: 90%;
-        margin: 10px 10px;
-    }
-
-    .btndownload img {
-        height: 35px;
-    }
-}
-
-@media (max-width: 480px) {
-    .PageLogin {
-        width: 100%;
-        height: auto;
-        padding: 15px;
-    }
-
-    .logo img {
-        width: 120px;
-    }
-
-    .inputLogIn input {
-        width: calc(100% - 40px);
-        margin: 0 20px 6px;
-    }
-
-    .btnEnter button {
-        width: 100%;
-        height: 40px;
-        font-size: 13px;
-    }
-
-    .or {
-        margin: 14px 10px;
-    }
-
-    .facebookAcess {
-        margin: 8px 10px;
-    }
-
-    .facebookAcess svg {
-        width: 18px;
-        height: 18px;
-    }
-
-    .AppDownload {
-        width: 100%;
-        margin: 10px 10px;
-    }
-
-    .btndownload img {
-        height: 30px;
-    }
-}
