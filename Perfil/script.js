@@ -1,3 +1,4 @@
+
 const openModal = document.querySelector('.Serach')
 const Modal = document.querySelector('.search')
 const closeModal = document.querySelector('.closeModal')
@@ -9,4 +10,5 @@ openModal.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
     Modal.style.display = 'none'
 })
+
 

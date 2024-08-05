@@ -1,11 +1,12 @@
+/* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: sans-serif;
-
 }
 
 .instagramPageAll {
@@ -21,7 +22,7 @@ body {
     width: 350px;
     height: 410px;
     background-color: white;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     display: flex;
@@ -50,16 +51,17 @@ body {
 }
 
 .inputLogIn input {
-    width: 268px;
+    width: 240px;
     height: 40px;
     background-color: #fafafa;
     margin: 0px 40px 6px 40px;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
+    padding: 0px 16px;
 }
 
 .btnSubmit {
-    margin: 8px 40px 8px 40px;
+    margin: 8px 40px;
     cursor: pointer;
 }
 
@@ -79,7 +81,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 14px 40px 22px 40px;
-
 }
 
 .or span {
@@ -92,7 +93,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 8px 40px 8px 40px;
+    margin: 8px 40px;
 }
 
 .facebookAcess span,
@@ -101,7 +102,6 @@ a {
     font-weight: 700;
     color: #315185;
     text-decoration: none;
-
 }
 
 .facebookAcess svg {
@@ -113,11 +113,9 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 18px;
-
 }
 
 .ForgetPassword a {
-
     font-size: 12px;
     font-weight: lighter;
     color: #00376B;
@@ -132,7 +130,6 @@ a {
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     margin-bottom: 10px;
-
 }
 
 .MakeAccount span {
@@ -147,7 +144,7 @@ a {
 
 .AppDownload {
     width: 350px;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +162,6 @@ a {
 
 .btndownload img {
     height: 40px;
-
 }
 
 .downloadApp {
@@ -183,3 +179,93 @@ a {
     justify-content: center;
 }
 
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .PageLogin {
+        width: 48.5%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .inputLogIn input {
+        width: calc(100% - 80px);
+        margin: 0 20px 6px;
+    }
+
+    .btnEnter button {
+        width: 100%;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .or {
+        margin: 14px 20px;
+    }
+
+    .facebookAcess {
+        margin: 8px 20px;
+    }
+
+    .facebookAcess svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .AppDownload {
+        width: 90%;
+        margin: 10px 10px;
+    }
+
+    .btndownload img {
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .PageLogin {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .inputLogIn input {
+        width: calc(100% - 40px);
+        margin: 0 20px 6px;
+    }
+
+    .btnEnter button {
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .or {
+        margin: 14px 10px;
+    }
+
+    .facebookAcess {
+        margin: 8px 10px;
+    }
+
+    .facebookAcess svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .AppDownload {
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    .btndownload img {
+        height: 30px;
+    }
+}
